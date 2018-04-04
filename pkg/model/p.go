@@ -1,14 +1,19 @@
 package model
 
+import (
+    "math/rand"
+)
+
 type P struct {
     ID      string
     A       int
     W       int
     SP      int
-    B       bool
+    S       bool
+    T       string
     Serial  int
     Uuid    string
-    muid    string
-    quid    string
+    Muid    string
+    Quid    string
     B64     string
 }
