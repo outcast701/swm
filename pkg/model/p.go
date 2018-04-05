@@ -1,9 +1,5 @@
 package model
 
-import (
-    "math/rand"
-)
-
 type P struct {
     ID      string
     A       int
