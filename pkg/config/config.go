@@ -10,6 +10,7 @@ type Config struct {
         Host        string  `json:"host"`
         Password    string  `json:"password"`
     }   `json:"database"`
+    TableName       string  `json:"tableName"`
 }
 
 func LoadConfig(fileName string) (Config, error) {

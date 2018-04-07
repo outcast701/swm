@@ -1,13 +1,13 @@
 package model
 
 type P struct {
-    ID      string
+    ID      int64
     A       int
     W       int
     SP      int
     S       bool
     T       string
-    Serial  int
+    Serial  int64
     Uuid    string
     Muid    string
     Quid    string
